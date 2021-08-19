@@ -1,0 +1,83 @@
+#page-content{
+    border:0.1px solid white;
+    position: relative;
+    width: 100%;
+
+}
+.main-content{  
+    min-height:89.98vh;
+    width:93%;
+    margin:10vh 0% 0% 6%;
+    height: auto;
+}
+.outerBorder{
+    position:static;
+    border:2px solid #707070;    /* #002b80 */
+    min-height:80vh;
+    height:auto !important;
+    margin-bottom:9vh;
+}
+.titleDesign{
+    color:plum;
+    text-align:center;
+    text-shadow:5px 5px 4px gray;
+    font-weight:bold;
+    font-size:2em;
+}
+.btnDesign{
+    background:plum;
+    color:white;
+    width:150px;
+    margin:10% 0 0 2%;
+    height:50px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.4);
+}
+.pageTitle{
+    text-align:left;
+    text-shadow:1px 1px 1px gray;
+}
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: url("../../public/image/lavender.jpg") no-repeat;
+    border-radius: 5px;
+    width: 28%;
+    height:70%;
+    position: relative;
+    transition: all 0s ease-in-out;
+}
+#tblSetting th,#tblUser th,#tblVersionData th,#tblTekkinData th{
+    padding:10px 0 10px 0;/*TRBL*/
+    background-color:#707070;/*#002b80*/
+    color:white;
+    border:1px solid;
+    text-align:center;
+}
+#tblSetting td{
+    padding-bottom:5px;
+    text-align:center;
+}
+#tblSetting td:first-child{
+    text-align:left;
+    padding-left:10px;
+}
+#tblUser td{
+    padding-left:10px;
+}
+#tblUser tr:nth-child(even) {
+    background-color:white;
+}
+#tblUser tr:nth-child(odd) {
+    background-color:whitesmoke;
+}

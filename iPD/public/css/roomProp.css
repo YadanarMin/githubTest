@@ -1,0 +1,31 @@
+.roomProp-panel{
+    min-height:89.98vh;
+    width:93%;
+    margin:10vh 0% 0% 3%;
+    height: auto;
+}
+.levelChartContainer{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+                0 1px 5px 0 rgba(0,0,0,0.12),
+                0 3px 1px -2px rgba(0,0,0,0.2);
+    margin: 10px 10px 10px 10px;
+    width: 25%;
+}
+.btn-border {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #0000cd;
+  font-size: 16px;
+  color: #0000cd;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border:hover {
+  background-color: #0000cd;
+  border-color: #4169e1;
+  color: #FFF;
+}
